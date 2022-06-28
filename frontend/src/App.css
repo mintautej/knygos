@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Oswald:wght@200&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+  }
+  .card-container.card {
+    max-width: 350px !important;
+    padding: 40px 40px;
+  }
+  .card {
+    background-color: #f7f7f7;
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  .profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .form-group button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #0e065c;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  .mygtukas{
+    text-decoration: none;
+    color: #fff;
+    background-color: #0e065c;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 13px;
+  }
+  
+  .navbar {
+    padding: 20px;
+    display: flex;
+    border-bottom: 1px solid #fff;
+    background-color: #0e065c;
+  }
+  .navbar h3 {
+    color:  #fff;
+    justify-content: left;
+    margin-left: 10px;
+  }
+  .navbar .links {
+    margin-left: auto;
+    padding-right: 50px;
+    justify-content: right;
+  }
+  .navbar a {
+    text-decoration: none;
+    padding: 6px;
+    justify-content: right;
+  }
+  .navbar a:hover {
+    color:  #f2f2f2;
+  }
+  .content {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+  }
+  .book-list{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  .book-preview {
+    margin: 20px 0;
+    border-bottom: 1px solid #0e065c;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  .book-preview:hover {
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  }
+  .book-preview h2 {
+    font-size: 20px;
+    color: #0e065c;
+    margin-bottom: 8px;
+  }
+  .book-preview a{
+    text-decoration: none;
+  }
+  .book-preview p{
+    padding-bottom: 10px;
+  }
+  
+  .book-details{
+    display: flex;
+  }
+  
+  .book-details h2 {
+    color: #0e065c;
+    margin-bottom: 30px;
+  }
+  
+  .book-details p{
+    padding-bottom: 15px;
+  }
+  
+  .book-details button, .book-details a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #0e065c;
+  border: 0;
+  border-radius: 8px;
+  padding: 7px;
+  font-size: 13px;
+  margin: auto;
+  margin-right: 20px;
+  margin-top: 30px;
+  }
+  
+  .edit button{
+    text-decoration: none;
+    color: #fff;
+    background-color: #0e065c;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 13px;
+  }
+  
+  .create label,
+  .edit label {
+    text-align: left;
+    display: grid;
+    color: #0e065c;
+    font-weight: bolder;
+  }
+  .create h3,
+  .edit h2, 
+  .edit label {
+    font-size: 20px;
+    color: #0e065c;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .create input, .create textarea,
+  .edit input, .edit textarea {
+    width: 60%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    color: #0e065c;
+  }
+  
+  .create button {
+    background: #0e065c;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
