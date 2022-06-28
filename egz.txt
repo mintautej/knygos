@@ -1,5 +1,0 @@
-A - Deserialization is the process of restoring state of an object from a byte stream.
-
-Instance variables are variables within a class but outside any method.
-
-Marker interface is an interface with no method. 
